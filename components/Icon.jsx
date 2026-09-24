@@ -1,0 +1,28 @@
+const paths={
+  "arrow": "M4 12h16M14 6l6 6-6 6",
+  "diagonal": "M6 18 18 6M6 6h12v12",
+  "search": "M21 21l-5-5M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0",
+  "bag": "M5 7h14l1 14H4L5 7ZM8 7V5a4 4 0 0 1 8 0v2",
+  "heart": "M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z",
+  "user": "M20 21v-2a7 7 0 0 0-14 0v2M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0",
+  "truck": "M1 4h14v13H1zM15 8h4l4 5v4h-8M7 18a2 2 0 1 1-4 0 2 2 0 0 1 4 0M21 18a2 2 0 1 1-4 0 2 2 0 0 1 4 0",
+  "return": "M4 10h10a6 6 0 1 1 0 12M4 10l5-5M4 10l5 5",
+  "shield": "M12 2 3 6v7c0 5 9 9 9 9s9-4 9-9V6l-9-4ZM8 12l3 3 5-6",
+  "box": "m12 2 10 5v10l-10 5-10-5V7l10-5ZM2 7l10 5 10-5M12 12v10M7 4.5l10 5",
+  "grid": "M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z",
+  "orders": "M6 3h12v18l-3-2-3 2-3-2-3 2V3ZM9 7h6M9 11h6M9 15h3",
+  "tag": "M20 13 11 22 2 13V3h10l8 10ZM7 7h.01",
+  "chart": "M4 20V10M12 20V4M20 20v-7",
+  "settings": "M12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8ZM12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2",
+  "bell": "M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4",
+  "plus": "M12 5v14M5 12h14",
+  "close": "M6 6l12 12M18 6 6 18",
+  "trash": "M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7M14 10v7",
+  "menu": "M3 6h18M3 12h18M3 18h18",
+  "check": "M5 12l4 4L19 6",
+  "download": "M12 3v12M7 10l5 5 5-5M3 16v5h18v-5",
+  "chevron": "m9 5 7 7-7 7",
+  "money": "M12 2v20M17 6h-7a4 4 0 0 0 0 8h4a3 3 0 0 1 0 6H6",
+  "store": "M3 9V3h18v6M2 9h20M4 10v11h16V10M9 21v-7h6v7"
+};
+export default function Icon({name}) {return <svg className="icon" viewBox="0 0 24 24" aria-hidden="true"><path d={paths[name]||paths.box}/></svg>}

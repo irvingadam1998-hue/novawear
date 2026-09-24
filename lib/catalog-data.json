@@ -1,0 +1,433 @@
+{
+  "markets": {
+    "PA": {
+      "name": "Panamá",
+      "flag": "🇵🇦",
+      "currency": "USD",
+      "symbol": "$",
+      "locale": "es-PA",
+      "currencyName": "Dólar estadounidense",
+      "freeShipping": 75,
+      "shipping": 5,
+      "city": "Ciudad de Panamá",
+      "region": "Provincia",
+      "regions": [
+        "Panamá",
+        "Panamá Oeste",
+        "Chiriquí",
+        "Veraguas",
+        "Coclé",
+        "Herrera",
+        "Los Santos",
+        "Colón",
+        "Bocas del Toro",
+        "Darién",
+        "Guna Yala",
+        "Emberá-Wounaan",
+        "Ngäbe-Buglé",
+        "Naso Tjër Di",
+        "Guna de Madugandí",
+        "Guna de Wargandí"
+      ],
+      "featured": 8
+    },
+    "NI": {
+      "name": "Nicaragua",
+      "flag": "🇳🇮",
+      "currency": "NIO",
+      "symbol": "C$",
+      "locale": "es-NI",
+      "currencyName": "Córdoba nicaragüense",
+      "freeShipping": 2500,
+      "shipping": 150,
+      "city": "Managua",
+      "region": "Departamento o región",
+      "regions": [
+        "Managua",
+        "León",
+        "Granada",
+        "Masaya",
+        "Chinandega",
+        "Estelí",
+        "Matagalpa",
+        "Jinotega",
+        "Boaco",
+        "Carazo",
+        "Chontales",
+        "Madriz",
+        "Nueva Segovia",
+        "Río San Juan",
+        "Rivas",
+        "Costa Caribe Norte",
+        "Costa Caribe Sur"
+      ],
+      "featured": 8
+    },
+    "SV": {
+      "name": "El Salvador",
+      "flag": "🇸🇻",
+      "currency": "USD",
+      "symbol": "$",
+      "locale": "es-SV",
+      "currencyName": "Dólar estadounidense",
+      "freeShipping": 60,
+      "shipping": 4,
+      "city": "San Salvador",
+      "region": "Departamento",
+      "regions": [
+        "San Salvador",
+        "La Libertad",
+        "Santa Ana",
+        "San Miguel",
+        "Sonsonate",
+        "Ahuachapán",
+        "Chalatenango",
+        "Cuscatlán",
+        "La Paz",
+        "Cabañas",
+        "San Vicente",
+        "Usulután",
+        "Morazán",
+        "La Unión"
+      ],
+      "featured": 8
+    }
+  },
+  "baseProducts": [
+    {
+      "id": 1,
+      "name": "Camisa Weekend",
+      "cat": "Camisas",
+      "gender": "Mujer",
+      "image": "wear-1",
+      "colorLabel": "Azul marino",
+      "colors": [
+        "#223346"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "description": "Una camisa azul para llevar abierta sobre tus básicos o como protagonista del look. Silueta relajada para todos los días.",
+      "tag": "NUEVA COLECCIÓN"
+    },
+    {
+      "id": 2,
+      "name": "Jersey Crew",
+      "cat": "Punto",
+      "gender": "Hombre",
+      "image": "wear-2",
+      "colorLabel": "Verde tomillo",
+      "colors": [
+        "#637056"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Punto, cuello redondo y una silueta que funciona sola o en capas. Una pieza fácil de combinar para tus planes de todos los días.",
+      "tag": "NUEVA COLECCIÓN"
+    },
+    {
+      "id": 3,
+      "name": "Jersey Half Zip",
+      "cat": "Punto",
+      "gender": "Hombre",
+      "image": "wear-3",
+      "colorLabel": "Azul",
+      "colors": [
+        "#647e8f"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Un jersey con cierre al cuello que suma textura a tu armario. Llévalo con pantalones relajados o una camisa debajo.",
+      "tag": "NUEVA COLECCIÓN"
+    },
+    {
+      "id": 4,
+      "name": "Pantalón Relax",
+      "cat": "Pantalones",
+      "gender": "Hombre",
+      "image": "wear-4",
+      "colorLabel": "Negro",
+      "colors": [
+        "#242626"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Una silueta amplia para moverte a tu ritmo. Un pantalón versátil que acompaña tus looks más cómodos.",
+      "tag": "NUEVA COLECCIÓN"
+    },
+    {
+      "id": 5,
+      "name": "Pantalón Wide",
+      "cat": "Pantalones",
+      "gender": "Mujer",
+      "image": "wear-5",
+      "colorLabel": "Negro",
+      "colors": [
+        "#252525"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "description": "Pierna amplia y líneas sencillas. Una prenda para combinar con tus camisetas, camisas y prendas de punto favoritas.",
+      "tag": "NUEVA COLECCIÓN"
+    },
+    {
+      "id": 6,
+      "name": "Camiseta Long",
+      "cat": "Camisetas",
+      "gender": "Hombre",
+      "image": "wear-6",
+      "colorLabel": "Castaño",
+      "colors": [
+        "#694631"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Manga larga y diseño sencillo para repetir sin pensarlo. Un básico que puedes llevar solo o debajo de una camisa.",
+      "tag": "NUEVA COLECCIÓN"
+    },
+    {
+      "id": 7,
+      "name": "Camiseta Crop",
+      "cat": "Camisetas",
+      "gender": "Mujer",
+      "image": "wear-7",
+      "colorLabel": "Blanco",
+      "colors": [
+        "#eeeae1"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "description": "Un básico de manga larga y silueta corta. Combínalo con pantalones amplios para un look equilibrado y relajado.",
+      "tag": "NUEVA COLECCIÓN"
+    },
+    {
+      "id": 8,
+      "name": "Conjunto Everyday",
+      "cat": "Conjuntos",
+      "gender": "Mujer",
+      "image": "fashion-hero",
+      "colorLabel": "Arena",
+      "colors": [
+        "#d6c9b6"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "description": "Una propuesta de conjunto con líneas relajadas y tonos neutros. Piezas que funcionan juntas y que también puedes combinar a tu manera.",
+      "tag": "NUEVA COLECCIÓN"
+    },
+    {
+      "id": 9,
+      "name": "Camiseta Daily",
+      "cat": "Camisetas",
+      "gender": "Hombre",
+      "image": "wear-9",
+      "colorLabel": "Azul denim",
+      "colors": [
+        "#677d92"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Una camiseta azul de manga corta para vestirte fácil. Combínala con tus pantalones favoritos.",
+      "tag": "NUEVA COLECCIÓN"
+    },
+    {
+      "id": 10,
+      "name": "Top Mock",
+      "cat": "Camisetas",
+      "gender": "Mujer",
+      "image": "wear-10",
+      "colorLabel": "Verde",
+      "colors": [
+        "#3d563d"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "description": "Manga larga, cuello alto y líneas limpias. Un top de referencia para llevar con prendas de cintura alta.",
+      "tag": "NUEVA COLECCIÓN"
+    }
+  ],
+  "assortments": {
+    "PA": [
+      [
+        1,
+        45,
+        22
+      ],
+      [
+        2,
+        59,
+        18
+      ],
+      [
+        3,
+        65,
+        15
+      ],
+      [
+        4,
+        49,
+        20
+      ],
+      [
+        5,
+        49,
+        17
+      ],
+      [
+        6,
+        29,
+        35
+      ],
+      [
+        7,
+        25,
+        24
+      ],
+      [
+        8,
+        79,
+        12,
+        99
+      ],
+      [
+        9,
+        49,
+        16
+      ],
+      [
+        10,
+        32,
+        19
+      ]
+    ],
+    "NI": [
+      [
+        1,
+        1590,
+        15
+      ],
+      [
+        2,
+        2190,
+        12
+      ],
+      [
+        4,
+        1790,
+        14
+      ],
+      [
+        5,
+        1790,
+        11
+      ],
+      [
+        6,
+        990,
+        25
+      ],
+      [
+        7,
+        890,
+        20
+      ],
+      [
+        8,
+        2890,
+        8,
+        3490
+      ],
+      [
+        10,
+        1190,
+        14
+      ]
+    ],
+    "SV": [
+      [
+        1,
+        42,
+        19
+      ],
+      [
+        2,
+        55,
+        13
+      ],
+      [
+        3,
+        59,
+        10
+      ],
+      [
+        4,
+        45,
+        18
+      ],
+      [
+        5,
+        45,
+        12
+      ],
+      [
+        6,
+        27,
+        28
+      ],
+      [
+        7,
+        23,
+        20
+      ],
+      [
+        8,
+        75,
+        10,
+        95
+      ],
+      [
+        9,
+        45,
+        12
+      ]
+    ]
+  }
+}
